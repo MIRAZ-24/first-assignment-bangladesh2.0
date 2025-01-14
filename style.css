@@ -208,3 +208,119 @@ input:focus {
     line-height: 24px;
     text-align: left;
 }
+
+/* Testimonial Section */
+.testimonial {
+    margin-bottom: 80px;
+    padding: 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px; 
+    background: rgb(255, 255, 255);
+}
+
+.testimonial .testimonial-content {
+    background: url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+.testimonial .testimonial-description {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 27px;
+}
+.testimonial .testimonial-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+}
+.testimonial .testimonial-subtitle {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Recent News */
+.recent-news {
+    margin-bottom: 80px;
+}
+
+.recent-news .blog-content {
+    background-color: #fff;
+    padding: 48px;
+    border-radius: 24px;
+}
+
+.recent-news .news-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin: 0;
+}
+.recent-news .news-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.recent-news .blog-post-1 {
+    display: flex;
+    align-items: center;
+}
+
+.blog-content .blog-image {
+    width: 408px;
+    height: 306px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    border-radius: 24px;
+}
+
+.recent-news .recent-news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.recent-news .blog-content .news-chanel-logo {
+    width: 134px;
+    height: 40px;
+    margin: 0;
+}
+.blog-content .post-date {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.blog-content .post-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.blog-mt {
+    margin-top: 30px;
+}
